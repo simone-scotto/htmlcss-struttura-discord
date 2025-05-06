@@ -1,0 +1,55 @@
+/*cssreset*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    }
+
+/*utilis*/
+
+
+
+.container {
+    
+    margin: 0 auto;
+}
+
+
+    /*header*/
+header {
+    background-color: #74ADD2;
+    padding-top: 10px;
+    padding-bottom: 3px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #DAA520;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.blu-bg {
+    background-color: blue;
+    padding: 20px;
+}
+
+.banner {
+    background-color: pink;
+    min-height: 250px;
+    width: 50%;
+
+}
+
+/* first section*/
+
+.white-bg {
+    background-color: rgb(130, 15, 36);
+
+}
+
+
+
+
