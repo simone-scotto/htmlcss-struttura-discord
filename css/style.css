@@ -102,8 +102,61 @@ header {
     
 }
 
+
+/*green section*/
+
 .big-green {
     background-color: green;
     min-height: 600px;
     width: 100%;
 }
+
+/* vertical section*/
+
+.black-bg {
+    background-color: black;
+    padding-top: 5px;
+    padding-bottom: 20px;
+
+}
+
+.vertical-red {
+    background-color: red;
+    min-height: 400px;
+    width: 30%;
+}
+
+.white-border {
+    border-color: white;
+    
+}
+
+.vertical-green{
+    background-color: green;
+    min-height: 400px;
+    width: 20%;
+    
+}
+
+footer {
+    background-color: darkgray;
+    padding-top: 10px;
+
+
+}
+
+.foot {
+    min-height: 50px;
+    background-color: aquamarine;
+    width: 100%;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+ button {
+    border: 1px dashed black;
+    padding: 5px;
+ }
