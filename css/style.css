@@ -14,7 +14,9 @@
  {
     border: 2px dashed black;
 }
-
+.debug .vertical-green{
+    border: 1px dashed white;
+}
 .container {
     
     margin: 0 auto;
@@ -36,6 +38,27 @@ header {
     margin: 0 auto;
     margin-bottom: 10px;
 }
+
+.side-navbar {
+    border: 1px dashed black;
+    width: 25%;
+    padding: 5px;
+    
+  }
+  
+  .left {
+    text-align: left;
+  }
+  
+  .right {
+    text-align: right;
+  }
+  .central-navbar {
+    border: 1px dashed black;
+    width: 50%;
+    text-align: center;
+    padding: 5px;
+  }
 
 .blu-bg {
     background-color: blue;
@@ -127,7 +150,7 @@ header {
 }
 
 .white-border {
-    border-color: white;
+    border: 1px dashed white;
     
 }
 
