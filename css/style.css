@@ -7,7 +7,13 @@
 
 /*utilis*/
 
-
+/** debug */
+.debug .nav > span,
+.debug .container > *,
+.debug .banner
+ {
+    border: 2px dashed black;
+}
 
 .container {
     
@@ -15,7 +21,7 @@
 }
 
 
-    /*header*/
+/*header*/
 header {
     background-color: #74ADD2;
     padding-top: 10px;
@@ -46,10 +52,58 @@ header {
 /* first section*/
 
 .white-bg {
-    background-color: rgb(130, 15, 36);
+    background-color: white;
+    padding: 20px 0px;
+    
 
+}
+
+.flex {
+    display: flex;
+    width: 60%;
+
+}
+
+.main-blu {
+    background-color: blue;
+    width: 60%;
+    min-height: 100px;
+
+}
+
+.pink {
+    background-color: pink;
+    width: 40%;
+    min-height: 300px;
+    
 }
 
 
 
+/*second section*/
 
+
+.grey-bg {
+    background-color: grey;
+    padding: 20px 0px;
+}
+
+.blu {
+    background-color: blue;
+    width: 40%;
+    min-height: 100px;
+
+}
+
+.main-pink {
+    background-color: pink;
+    width: 60%;
+    min-height: 300px;
+    
+}
+
+.big-green {
+    background-color: green;
+    min-height: 600px;
+    width: 100%;
+}
